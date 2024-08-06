@@ -90,6 +90,7 @@ h2{
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 30px;
+    padding-bottom: 50px;
 }
 
 .single-phone{
@@ -178,4 +179,15 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
