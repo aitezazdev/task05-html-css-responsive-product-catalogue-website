@@ -139,7 +139,7 @@ h2 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.single-phone:hover, .single-laptop:hover{
+.single-phone:hover, .single-laptop:hover, .single-watch:hover{
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
   transform: scale(1.02);
 }
@@ -219,24 +219,39 @@ h2 {
 
 .single-watch {
   width: 450px;
-  height: 65vh;
-  background-color: lightgreen;
+  height: 40vh;
+  background-color: #fff;
   border-radius: 7px;
   overflow: hidden;
+  display: flex;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .single-watch .watch-img {
-  height: 80%;
+  height: 100%;
+  width: 50%;
+  padding: 20px;
+}
+
+.watch-img img{
+  height: 100%;
   width: 100%;
-  background-color: orange;
+  object-fit: cover;
+  cursor: pointer;
 }
 
 .watch-spec {
-  height: 20%;
-  width: 100%;
+  height: 100%;
+  width: 50%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  padding: 30px;
+  gap: 10px;
+}
+
+.watch-spec strong{
+  font-size: 18px;
 }
 
 footer {
