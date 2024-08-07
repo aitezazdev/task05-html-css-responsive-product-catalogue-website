@@ -5,29 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Catalogue</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
   </head>
   <body>
     <!-- header -->
     <header id="header">
-      <h1>Product Catalogue</h1>
+      <h1>Catalogue</h1>
       <div id="input-div">
-        <input type="text" placeholder="search" />
-        <button>icon</button>
+        <input type="text" placeholder="Search" />
+        <button><i class="ri-search-line"></i></button>
       </div>
       <div id="top-icons">
-        <p>oo</p>
-        <p>oo</p>
+        <i class="ri-heart-line"></i>
+        <i class="ri-shopping-cart-2-line"></i>
       </div>
     </header>
 
-    <div id="categ_img">
+    <div id="main-categ">
       <div id="categories">
         <h3>All Categories</h3>
         <div id="links">
-          <a href="#">Home</a>
-          <a href="#">Smart Phones</a>
-          <a href="#">Laptops</a>
-          <a href="#">Smart Watches</a>
+          <a href="#header">Home</a>
+          <a href="#phone-main">Smart Phones</a>
+          <a href="#laptop-main">Laptops</a>
+          <a href="#watch-main">Smart Watches</a>
         </div>
       </div>
 
@@ -144,7 +149,7 @@
     </div>
 
     <!-- Watches -->
-     <h2>Watches</h2>
+     <h2>Smart Watches</h2>
      <div id="watch-main">
         <div class="single-watch">
             <div class="watch-img">
@@ -183,9 +188,11 @@
      <!-- footer -->
       <footer>
         <div id="footer-icons">
-            icons icons icons
+          <i class="ri-mail-send-line mail"></i>
+          <i class="ri-facebook-circle-fill fb"></i>
+          <i class="ri-instagram-line insta"></i>
         </div>
-        <p id="my-rights">All Rights Reserved</p>
+        <p id="my-rights">Some Rights Reserved</p>
       </footer>
   </body>
 </html>
