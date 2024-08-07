@@ -136,10 +136,10 @@ h2 {
   border-radius: 7px;
   overflow: hidden;
   background-color: #fff;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.single-phone:hover{
+.single-phone:hover, .single-laptop:hover{
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
   transform: scale(1.02);
 }
@@ -170,16 +170,16 @@ h2 {
 .single-laptop {
   width: 350px;
   height: 65vh;
-  background-color: lightblue;
   border-radius: 7px;
   overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .single-laptop .watch-spec,
 .single-laptop .trend {
   height: 15%;
   width: 100%;
-  background-color: red;
 }
 
 .single-laptop .trend {
@@ -207,7 +207,14 @@ h2 {
 .single-laptop .laptop-img {
   height: 70%;
   width: 100%;
-  background-color: #0d3b9f;
+  padding: 30px;
+}
+
+.laptop-img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
 }
 
 .single-watch {
