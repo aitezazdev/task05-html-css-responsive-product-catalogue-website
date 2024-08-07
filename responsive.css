@@ -8,16 +8,17 @@
     }
     #main-categ{
         height: 30vh;
+        align-items: center;
     }
     #categories{
         width: 25%;
-        height: 90%;
+        height: 100%;
         padding: 3px;
         margin: 5px;
     }
     #categories h3{
         padding: 3px 0;
-        font-size: 14px;
+        font-size: 12px;
     }
     #categories a{
         font-size: 12px;
@@ -31,5 +32,17 @@
     }
     .single-watch{
         width: 320px;
+        height: 65vh;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .single-watch .watch-img{
+        width: 100%;
+        height: 70%;
+    }
+    .watch-spec{
+        width: 100%;
+        height: 30%;
+        text-align: center;
     }
 }

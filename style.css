@@ -106,7 +106,7 @@ body {
 
 #categ-img {
   width: 80%;
-  background-color: aqua;
+  height: 100%;
 }
 
 #categ-img img {
@@ -257,20 +257,20 @@ h2 {
 footer {
   background-color: #b9b5b5;
   color: #fff;
-  padding: 30px;
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #000;
-  gap: 10px;
+  gap: 15px;
 }
 
 #footer-icons {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 25px;
+  gap: 15px;
+  font-size: 30px;
 }
 
 #footer-icons .mail {
@@ -285,4 +285,8 @@ footer {
 #footer-icons .insta {
   color: #ac1698;
   cursor: pointer;
+}
+
+#my-rights{
+  font-size: 17px;
 }
