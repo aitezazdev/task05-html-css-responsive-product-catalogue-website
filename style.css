@@ -43,7 +43,7 @@ body {
 }
 
 #input-div input {
-  padding: 8px;
+  padding: 8px 10px;
   width: 250px;
   outline: none;
   border-top-left-radius: 5px;
@@ -191,10 +191,20 @@ h2 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.single-laptop .watch-spec,
 .single-laptop .trend {
   height: 15%;
   width: 100%;
+}
+
+
+.single-laptop .laptop-spec{
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
 }
 
 .single-laptop .trend {
@@ -216,8 +226,9 @@ h2 {
 
 .single-laptop .watch-spec {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: ce;
+  background-color: red;
 }
 
 .single-laptop .laptop-img {
@@ -287,6 +298,10 @@ footer {
   align-items: center;
   gap: 15px;
   font-size: 30px;
+}
+
+#footer-icons a {
+  text-decoration: none;
 }
 
 #footer-icons .mail {
