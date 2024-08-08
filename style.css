@@ -8,12 +8,11 @@
 }
 
 body {
-  background-color: #bbe3dd;
+  background-color: #E6E6E6;
 }
 
 #header {
-  background-color: #4b308e;
-  color: #fff;
+  background-color: #1A4A4A;
   padding: 20px;
   display: flex;
   justify-content: space-around;
@@ -24,17 +23,18 @@ body {
   z-index: 100;
 }
 
-#header h1 {
-  font-size: 24px;
-}
 
+#header > img{
+  width: 130px;
+}
 #top-icons {
   display: flex;
   gap: 10px;
+  color: #fff;
 }
 
 #top-icons i {
-  font-size: 22px;
+  font-size: 25px;
   cursor: pointer;
 }
 
@@ -43,24 +43,33 @@ body {
 }
 
 #input-div input {
-  padding: 10px;
+  padding: 8px;
   width: 250px;
   outline: none;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border: none;
   font-size: 16px;
+  border: 2px solid transparent;
+}
+
+#input-div input:focus{
+  border: 2px solid #39A9A9;
 }
 
 #input-div button {
   padding: 10px 14px;
-  background-color: #333;
+  background-color: #39A9A9;
   color: #fff;
   border: none;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   font-size: 16px;
   cursor: pointer;
+}
+
+#input-div button:hover{
+  background-color: #399999;
 }
 
 #main-categ {
@@ -73,35 +82,39 @@ body {
 #categories {
   width: 20%;
   height: 100%;
-  background-color: #fff;
   padding: 10px;
   margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
 }
 
 #categories h3 {
   text-align: center;
-  background-color: #1aa9a9;
-  padding: 8px 0;
+  background-color: #39A9A9;
+  color: #fff;
+  padding: 10px 0;
   margin-bottom: 10px;
   border-radius: 3px;
 }
 
 #links {
-  height: 70%;
+  height: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 #categories a {
   text-decoration: none;
   color: #000;
   display: block;
-  margin: 7px 0;
+  margin: 7px 5px;
 }
 
 #categories a:hover {
-  color: #333;
+  color: #333333;
 }
 
 #categ-img {
@@ -136,6 +149,7 @@ h2 {
   border-radius: 7px;
   overflow: hidden;
   background-color: #fff;
+  color: #333333;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -173,6 +187,7 @@ h2 {
   border-radius: 7px;
   overflow: hidden;
   background-color: #fff;
+  color: #333333;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -193,9 +208,10 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
   border-top-right-radius: 999px;
   border-bottom-right-radius: 999px;
-  background-color: rgb(136, 136, 213);
+  background-color: #39A9A9;
 }
 
 .single-laptop .watch-spec {
@@ -221,6 +237,7 @@ h2 {
   width: 450px;
   height: 40vh;
   background-color: #fff;
+  color: #333333;
   border-radius: 7px;
   overflow: hidden;
   display: flex;
@@ -255,8 +272,7 @@ h2 {
 }
 
 footer {
-  background-color: #b9b5b5;
-  color: #fff;
+  background-color: #1A4A4A;
   padding: 50px 20px;
   display: flex;
   flex-direction: column;
@@ -274,16 +290,16 @@ footer {
 }
 
 #footer-icons .mail {
-  color: #ac4316;
+  color: #F94144;
   cursor: pointer;
 }
 
 #footer-icons .fb {
-  color: #1619ac;
+  color: #1877F2;
   cursor: pointer;
 }
 #footer-icons .insta {
-  color: #ac1698;
+  color: #E1306C;
   cursor: pointer;
 }
 
