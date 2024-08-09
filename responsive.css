@@ -36,9 +36,9 @@
     }
     .single-watch{
         width: 320px;
-        height: 65vh;
+        height: 50vh;
         flex-direction: column;
-        padding: 10px;
+        /* padding: 10px; */
     }
     .single-watch .watch-img{
         width: 100%;
@@ -49,4 +49,11 @@
         height: 30%;
         text-align: center;
     }
+    #categ-img div{
+        display: none;
+      }
+      .single-phone:hover, .single-laptop:hover{
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+        transform: scale(1);
+      }
 }
